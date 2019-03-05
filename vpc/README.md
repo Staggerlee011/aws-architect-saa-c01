@@ -5,14 +5,18 @@ stateful - is an inbound rule that includes the return network traffic even if i
   
 stateless - is an outbound rule only. if you have return traffic you will need to create rules to allow this as well! (network acl)
   
+## aws network topology
+igw -> route table -> nacl -> security group -> ec2 instance
+
 ## vpc
 - regional 
+- default vpc created has a igw
   
 ## route tables
 - set to vpc
 - define network traffic routes
   
-## internet gateways
+## internet gateways (igw)
 - must be created
 - gives access to internet to vpc
 - 1 per vpc 

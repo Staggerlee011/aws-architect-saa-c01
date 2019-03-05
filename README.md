@@ -12,3 +12,6 @@
 [ec2](ec2/README.md)  
 [efs](efs/README.md)  
 [vpc](vpc/README.md) 
+[high availability and fault tolerance](ha-ft/README.md)
+
+  
