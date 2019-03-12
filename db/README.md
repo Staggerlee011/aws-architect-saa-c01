@@ -9,7 +9,7 @@
     - postgres
     - mariadb
     - oracledb
-    - orora (sp)
+    - aurora
 
 ### amazon redshift
 - datawarehouse 
@@ -19,7 +19,7 @@
 
 ### amazon elasicache
 - key-value database
-- ca run the following:
+- can run the following:
     - redis
     - memcache
   
@@ -45,8 +45,11 @@
     - mysql = mysqldump
     - postgres = 
     - aws migration tool 
+- can control when upgrades of version happen
+- deleting db deletes standard backups only (manual backups are kept)
 
-### auroa
+
+### aurora
 - quicker than mysql (x5) / postgres (x3)
 - continious backup (backTrack for point in time restore)
 - quick replication to repoicas 
@@ -56,6 +59,13 @@
 - auroa serverless 
     - pay as you go (no user access will scale down and just charge for storage)
     - auto scales up and down
+
+## dynamodb
+- document db (json)
+- dynamic scaling (storage and performance), based on read capacity and write capacity
+- api only (serverless)
+- fault tolerance via distributing data across all az in the region 
+- can encrpyt at rest (tde)
 
 
 [home](../README.md)
