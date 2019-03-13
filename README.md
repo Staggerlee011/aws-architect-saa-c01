@@ -8,11 +8,10 @@
 [aws certified solutions architect - associate (saa-c01) cert guide, first edition](https://learning.oreilly.com/library/view/aws-certified-solutions/9780135266885/cover.xhtml)  
   
 ## notes and guides
-[iam](iam/README.md)  
-[ec2](ec2/README.md)  
-[efs](efs/README.md)  
-[vpc](vpc/README.md) 
-[high availability and fault tolerance](ha-ft/README.md)
-
-  
-[database](db/README.md)
+- [iam](iam/README.md)  
+- [ec2](ec2/README.md)  
+- [efs](efs/README.md)  
+- [vpc](vpc/README.md) 
+- [high availability and fault tolerance](ha-ft/README.md)  
+- [route53](route53/README.md)
+- [database](db/README.md)
