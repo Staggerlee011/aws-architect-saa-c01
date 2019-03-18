@@ -20,6 +20,8 @@
     - query string
     - supports get, post, put, head
         - upload or send requests to a origin via an edge 
+    - rtmp
+        - adobe flash media support for s3 buckets
     - security
         - ssl certs
         - end to end https
