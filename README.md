@@ -16,3 +16,4 @@
 - [route53](route53/README.md)
 - [cloudfront](cloudfront/README.md)
 - [database](db/README.md)
+- [s3](s3/README.md)
