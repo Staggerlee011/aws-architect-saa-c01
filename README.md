@@ -14,4 +14,5 @@
 - [vpc](vpc/README.md) 
 - [high availability and fault tolerance](ha-ft/README.md)  
 - [route53](route53/README.md)
+- [cloudfront](cloudfront/README.md)
 - [database](db/README.md)
