@@ -8,7 +8,8 @@
   - most saas and paas from aws (s3 event, db event etc)
 
 - subscribers
-  - 10 million endpoints per topic (can be different types at the same time)
+  - 10 million endpoints per topic
+  - can have multiple subscribers
   - has retry logic that can be defined
   - sms
   - email (must confirm subscription to email address)

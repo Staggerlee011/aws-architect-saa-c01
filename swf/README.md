@@ -2,7 +2,7 @@
 
 - orchestration of workflows
 - fifo (first in first out)
-- use flow framework for java 
+- use flow framework for java
 
 - starter
   - starts workflow
